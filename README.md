@@ -13,4 +13,4 @@ https://github.com/dotnet/tye/blob/main/docs/getting_started.md
 Web endpoint:
 http://localhost:8600/swagger/index.html
 
-To see it in action run ThreadIntegrationTest from Sync.Test project 
+To see it in action just run ThreadIntegrationTest from Sync.Test project 
