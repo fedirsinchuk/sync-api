@@ -1,0 +1,25 @@
+﻿{
+  "$schema": "https://json.schemastore.org/launchsettings.json",
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:35657",
+      "sslPort": 44353
+    }
+  },
+  "profiles": {
+    "Sync.API": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": false,
+      "launchUrl": "swagger",
+      "applicationUrl": "http://localhost:5161",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "DbConnection": "Server=127.0.0.1;Port=5431;User ID=user;Password=123456;Database=Syncdb-3;Command Timeout=0;"
+      }
+    }
+    
+  }
+}
